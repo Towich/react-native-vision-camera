@@ -1,0 +1,254 @@
+[33mcommit 9963f4dedc6fbef933fb99e0adca1343f4f5f972[m[33m ([m[1;36mHEAD -> [m[1;32mbranch1[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mbranch2[m[33m)[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Wed Feb 1 16:37:53 2023 +0100
+
+    chore: release 2.15.4
+
+[33mcommit 6a094bf1b005940c26f59c5661d3b0ee60bf4852[m
+Author: zzz08900 <51951532+zzz08900@users.noreply.github.com>
+Date:   Wed Feb 1 23:37:18 2023 +0800
+
+    fix: Fix Android build error on RN < 0.71 (#1447)
+
+[33mcommit a1a2cdc246442466b0d7cb01ab625f99c7c582c2[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Jan 30 19:39:46 2023 +0100
+
+    chore: release 2.15.3
+
+[33mcommit b82d0e362de6ef8f2220e38bda39000b07fb5a61[m
+Author: Christoph Gritschenberger <christoph.gritschenberger@gmail.com>
+Date:   Mon Jan 30 19:38:52 2023 +0100
+
+    fix: Add support for react-native 0.71 (#1438)
+    
+    Co-authored-by: Christoph Gritschenberger <christoph.gritschenberger@cca.io>
+
+[33mcommit ae2c28a2c27a2ef6afa276b1b2d2034d2651027c[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Tue Dec 6 15:45:52 2022 +0100
+
+    Add VisionCamera V3 link to README
+
+[33mcommit 231838772cddc0a837e7f3cf8bf4c077d3cc8fab[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Wed Nov 30 12:06:11 2022 +0100
+
+    Update Podfile.lock
+
+[33mcommit 938cb2e42a93b7a4bec4639e5616957f04994bf8[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Fri Nov 25 15:40:07 2022 +0100
+
+    Update CameraView+Orientation.swift
+
+[33mcommit bf71901968fcdb7fbb5864c435ff239df23c81a5[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Fri Nov 25 15:39:04 2022 +0100
+
+    fix: Fix orientation glitching on first frame
+
+[33mcommit a65b8720bd7f2efffc5fb9061cc1e5ca5904bd27[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Oct 31 13:05:21 2022 +0100
+
+    chore: release 2.15.2
+
+[33mcommit 045794c97938d498cba299273948b47ff2fba5dc[m
+Author: Al Mochkin <14274697+amochkin@users.noreply.github.com>
+Date:   Mon Oct 31 08:04:07 2022 -0400
+
+    fix: Update CLANG_CXX_LANGUAGE_STANDARD to C++17 (#1309)
+
+[33mcommit 3416e94b1827cb72ab7376cf678d259fe9e360ce[m
+Author: LazyAfternoons <LazyAfternoons@users.noreply.github.com>
+Date:   Fri Oct 28 13:12:44 2022 +0200
+
+    fix: Use `+load` for registering Frame Processors (#1308)
+    
+    Fixes crash with Xcode 14
+
+[33mcommit 6b32cd9cd7eb72f6abaee4228dd7a8c3d59b0a46[m
+Author: Rohan Barman <rohan1barman@gmail.com>
+Date:   Fri Oct 28 05:18:36 2022 -0500
+
+    docs: Replace outdated react-native-reanimated doc links (#1304)
+
+[33mcommit c046440e0e62b6e2416610ab216583bc47544c4c[m
+Author: Thibault Malbranche <malbranche.thibault@gmail.com>
+Date:   Fri Oct 28 12:18:06 2022 +0200
+
+    fix: Allowed setting custom downloads directory (#1306)
+    
+    Clone of https://github.com/mrousavy/react-native-mmkv/pull/459/
+
+[33mcommit 1d6f720f8b499c03e91de32fabce64e9db293702[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Oct 24 14:10:30 2022 +0200
+
+    chore: release 2.15.1
+
+[33mcommit a7932bdc981d76b4f1f83f7bd406d1abb4f345ac[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Oct 24 14:09:56 2022 +0200
+
+    fix: Support new Reanimated Headers directory (2.11.10+) (#1301)
+
+[33mcommit 849aa3ebaf8edf8ad0809b1277097fa05db13c29[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Thu Oct 20 12:50:08 2022 +0200
+
+    chore: release 2.15.0
+
+[33mcommit 52a1d50d91f5da6f9e70acb95f12326e7fa325c6[m
+Author: Thomas Coldwell <31568400+thomas-coldwell@users.noreply.github.com>
+Date:   Thu Oct 20 11:49:22 2022 +0100
+
+    fix: Frame Processor FPS (#1288)
+    
+    * fix: Build using XCode 14
+    
+    * fix: Throttle FP by start time rather than end time
+
+[33mcommit 4781ad983530493ee13069fd69ef9f15d154a3cc[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Fri Oct 14 12:30:22 2022 +0200
+
+    feat: Continue to record audio when receiving a phone call (try to prevent interruptions) (#1278)
+    
+    * feat: Continue to record audio when receiving a phone call (try to prevent interruptions)
+    
+    Uses `setPrefersNoInterruptionsFromSystemAlerts` to prevent system alerts (like phone calls) from interrupting the audio session which records audio from the microphone.
+    
+    * fix: Add `try`
+
+[33mcommit cc7d195cbd191c436b24ee2cab7a1daf9dd23b31[m
+Author: Efe Furkan KARAKAYA <49307777+efefurkankarakaya@users.noreply.github.com>
+Date:   Tue Oct 4 11:39:50 2022 +0300
+
+    fix: CameraDevices type can't be imported (#1255)
+
+[33mcommit b7bb8e45daf4edaf52243432315943261705b148[m
+Author: viniciusyoshioka <71671043+viniciusyoshioka@users.noreply.github.com>
+Date:   Wed Aug 10 06:21:59 2022 -0300
+
+    fix: Build error "2 files found with path '.../libfolly_runtime.so'" (#1144)
+
+[33mcommit 0fbb8a3108f3215d771d8242a64a6b53487f7833[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Tue Aug 9 18:21:14 2022 +0200
+
+    chore: release 2.14.1
+
+[33mcommit 205e542cb6c28e9d1f268bed800de872c1d85147[m
+Author: Thibault Malbranche <malbranche.thibault@gmail.com>
+Date:   Tue Aug 9 18:20:42 2022 +0200
+
+    fix: Support RN 0.69 and use Hermes from source! 🎉 (#1186)
+    
+    * wip
+    
+    * wip
+    
+    * Update CMakeLists.txt
+    
+    * Update CMakeLists.txt
+    
+    * Update android/build.gradle
+    
+    Co-authored-by: Tomek Zawadzki <tomekzawadzki98@gmail.com>
+    
+    Co-authored-by: Tomek Zawadzki <tomekzawadzki98@gmail.com>
+
+[33mcommit 312b82b9f6f8ccf9e28b324e400fb6361ea82776[m
+Author: Lihang Xu <xulihanghai@163.com>
+Date:   Fri Aug 5 15:52:35 2022 +0800
+
+    docs: Add Dynamsoft Label Recognizer Frame Processor Plugin (#1183)
+
+[33mcommit f289f91773f89b520710d4632aabe8c50a4f57b0[m
+Author: Philipp Parzer <74797907+philparzer@users.noreply.github.com>
+Date:   Mon Jul 25 13:26:18 2022 +0200
+
+    docs: Fix typo in ERRORS (#1160)
+    
+    fix typo "promt" to "prompt"
+
+[33mcommit 80df81815aa178ca9439e9b7516be264d6c1368a[m
+Author: Eduardo Borges <euduardoborges@gmail.com>
+Date:   Wed Jul 20 09:02:20 2022 -0300
+
+    fix: Fix takePhoto not working inside an Modal (#1021)
+    
+    * fix: fix takePhoto not working inside an Modal
+    
+    * chore: remover unnecessary code
+    
+    * chore: remove unnecessary variable
+
+[33mcommit 230b3a6f62bcf10210aa0268de6dcfcd35df7e88[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Tue Jul 19 13:30:59 2022 +0200
+
+    Rename .save -> +save
+
+[33mcommit 3329ee28416bbc3fb6109fa3df3ad53a6c1edd88[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Jul 18 10:42:58 2022 +0200
+
+    chore: release 2.14.0
+
+[33mcommit 8bafd96c2422a4e38c15b14334f4c498caa57c46[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Mon Jul 18 11:40:56 2022 +0300
+
+    feat: Allow returning of ImageProxy in a Frame Processor (#1149)
+    
+    * feat: Allow returning of ImageProxy in a Frame Processor
+    
+    * chore: Clean up
+    
+    * fix: Missing space
+    
+    * Update useFrameProcessor.ts
+    
+    * Revert "Update useFrameProcessor.ts"
+    
+    This reverts commit 9c645489cdfdf2079972669756a2cd20cc81e25e.
+
+[33mcommit 2a73c09be566eb9de5a065ac7df300688f9a50ec[m
+Author: Mateusz Mędrek <luigimario1913@gmail.com>
+Date:   Thu Jul 7 14:06:31 2022 +0200
+
+    docs: add vision-camera-plugin-builder sections in Creating Frame Processor Plugins (#1123)
+    
+    - add automatic setup section to "Creating Frame Processor Plugins (iOS|Android)" with
+    vision-camera-plugin-builder CLI
+
+[33mcommit 724af318074853a2d78adcf371c70400da56b9fc[m
+Author: Rupesh Chaudhari <30570616+hrupesh@users.noreply.github.com>
+Date:   Tue Jul 5 14:21:24 2022 +0530
+
+    fix: Use `facebook::jsi` instead of `jsi` (#1109)
+    
+    This PR fixes the Build error in React Native 0.69 for iOS
+
+[33mcommit 54703f386c8d8cf669a341732b37fcd4529bdcb3[m
+Author: Thomas Coldwell <31568400+thomas-coldwell@users.noreply.github.com>
+Date:   Mon Jul 4 13:09:39 2022 +0100
+
+    fix: Set initial timestamp on first frame (#1114)
+
+[33mcommit 147b9111d495c7ba4d4608b028b83a545b89cc0c[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Tue Jun 14 11:08:33 2022 +0200
+
+    chore: release 2.13.5
+
+[33mcommit 97f91b4fe949e3fc0ff0da5c6d8d97179d971604[m
+Author: Marc Rousavy <me@mrousavy.com>
+Date:   Tue Jun 14 11:08:14 2022 +0200
+
+    Update package.json
+
+[33mcommit 04a

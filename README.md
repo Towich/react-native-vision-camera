@@ -2,12 +2,9 @@
   <img src="./docs/static/img/banner.svg" width="100%" />
 </a>
 
-<div>First commit in branch2</div>
-
-<div>THird commit in branch2</div>
-
-<div>Second commit in branch2</div>
-
+<div>First commit in branch1&branch2</div>
+<div>Second commit in branch1&branch2</div>
+<div>Third commit in branch1&branch2</div>
 
 <h1 align="center">Vision Camera</h1>
 
