@@ -4,6 +4,7 @@
 
 <div>First commit in branch2</div>
 
+<div>THird commit in branch2</div>
 
 <div>Second commit in branch2</div>
 
