@@ -1,7 +1,8 @@
 <a href="https://margelo.io">
   <img src="./docs/static/img/banner.svg" width="100%" />
 </a>
-<div>First commit in branch1</div>
+
+<!-- First commit has been removed! -->
 <div>Second commit in branch1</div>
 <div>Third commit in branch1</div>
 
