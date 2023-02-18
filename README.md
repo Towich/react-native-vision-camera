@@ -4,6 +4,9 @@
 <div>First commit in branch1</div>
 <div>Second commit in branch1</div>
 <div>Third commit in branch1</div>
+
+<div>This is the 4th commit in branch1</div>
+
 <h1 align="center">Vision Camera</h1>
 
 <div align="center">
